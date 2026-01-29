@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-gray-50 text-gray-800 font-sans">
+    <nav class="flex p-5 justify-around items-center">
+      <div class="text-2xl font-bold">Home</div>
+
+      <div class="flex gap-6 text-xl font-medium">
+        <span>Experience</span>
+        <span>Technique</span>
+        <span>Projects</span>
+        <span>Contact Me</span>
+      </div>
+
+      <div class="flex gap-4">
+        <ion-icon name="moon-outline" class="text-gray-900 size-6"></ion-icon>
+        <ion-icon name="text-outline" class="text-gray-900 size-6"></ion-icon>
+      </div>
+    </nav>
     <header class="flex flex-col md:flex-row items-center gap-6 mb-16">
       <img
         src="public/pic.png"
@@ -36,6 +51,110 @@
         </div>
       </div>
     </header>
+    <!-- 关于我 -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">About Me 🙋‍♂️</h2>
+      <p class="leading-relaxed">
+        Hello! I am an applied statistics student 🧑‍💻, specializing in front-end development and data visualization. I am currently learning front-end development and hope to improve my full-stack skills through engineering practice.
+      </p>
+    </section>
+
+    <!-- 技能 -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-bold mb-4">Tech Stacks 💻</h2>
+      <div class="text-lg mt-5 mb-3">Languages</div>
+      <div class="flex gap-4">
+        <span
+          class="flex items-center px-4 py-2 bg-orange-600 rounded-full text-lg text-white "
+        >
+          <ion-icon name="logo-html5" class="size-6"></ion-icon
+          ><span class="font-medium ml-0.5">HTML</span>
+        </span>
+
+        <span class="flex items-center px-4 py-2 bg-sky-500 text-white rounded-full text-lg"
+        ><ion-icon name="logo-css3" class="size-6"></ion-icon><span class="font-medium ml-0.5">CSS</span>
+        </span></span
+      >
+      <span class="flex items-center px-4 py-2 bg-yellow-400 text-white rounded-full text-lg"
+        ><ion-icon name="logo-javascript" class="size-6"></ion-icon>
+        <span class="font-medium ml-0.5">JavaScript</span>
+        </span></span
+      >
+      <span class="flex items-center px-4 py-2 bg-blue-800 text-white rounded-full text-lg"
+        >
+        <svg class="size-5.5 fill-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TypeScript</title><path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/></svg>
+        <span class="font-medium ml-0.5">  TypeScript</span>
+        </span></span
+      >
+      </div>
+
+      <div class="text-lg mt-5 mb-3">Frontend Frameworks</div>
+
+      <div class="flex gap-4">
+
+        <span class="flex items-center px-4 py-2 bg-sky-500 text-white rounded-full text-lg"
+        >
+        <ion-icon class="size-6" name="logo-react"></ion-icon><span class="font-medium ml-0.5">React</span>
+      </span></span
+      >
+      <span class="flex items-center px-4 py-2  bg-cyan-400 text-white rounded-full text-lg"
+      >
+      <svg class="size-5.5 fill-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
+      <span class="font-medium ml-0.5">Tailwind CSS</span>
+      </span>
+
+      <span class="flex items-center px-4 py-2  bg-amber-500 text-white rounded-full text-lg"
+      ><svg class="size-5.5 fill-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>pnpm</title><path d="M0 0v7.5h7.5V0zm8.25 0v7.5h7.498V0zm8.25 0v7.5H24V0zM2 2h3.5v3.5H2zm8.25 0h3.498v3.5H10.25zm8.25 0H22v3.5h-3.5zM8.25 8.25v7.5h7.498v-7.5zm8.25 0v7.5H24v-7.5zm2 2H22v3.5h-3.5zM0 16.5V24h7.5v-7.5zm8.25 0V24h7.498v-7.5zm8.25 0V24H24v-7.5z"/></svg><span class="font-medium ml-0.5">pnpm</span>
+      </span
+      >
+
+      <span class="flex items-center px-4 py-2  bg-blue-500 text-white rounded-full text-lg"
+      ><svg class="size-5.5 fill-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>MUI</title><path d="M20.229 15.793a.666.666 0 0 0 .244-.243.666.666 0 0 0 .09-.333l.012-3.858a.666.666 0 0 1 .09-.333.666.666 0 0 1 .245-.243L23 9.58a.667.667 0 0 1 .333-.088.667.667 0 0 1 .333.09.667.667 0 0 1 .244.243.666.666 0 0 1 .089.333v7.014a.667.667 0 0 1-.335.578l-7.893 4.534a.666.666 0 0 1-.662 0l-6.194-3.542a.667.667 0 0 1-.246-.244.667.667 0 0 1-.09-.335v-3.537c0-.004.004-.006.008-.004s.008 0 .008-.005v-.004c0-.003.002-.005.004-.007l5.102-2.93c.004-.003.002-.01-.003-.01a.005.005 0 0 1-.004-.002.005.005 0 0 1-.001-.004l.01-3.467a.667.667 0 0 0-.333-.58.667.667 0 0 0-.667 0L8.912 9.799a.667.667 0 0 1-.665 0l-3.804-2.19a.667.667 0 0 0-.999.577v6.267a.667.667 0 0 1-.332.577.666.666 0 0 1-.332.09.667.667 0 0 1-.333-.088L.336 13.825a.667.667 0 0 1-.246-.244.667.667 0 0 1-.09-.336L.019 2.292a.667.667 0 0 1 .998-.577l7.23 4.153a.667.667 0 0 0 .665 0l7.228-4.153a.666.666 0 0 1 .333-.088.666.666 0 0 1 .333.09.667.667 0 0 1 .244.244.667.667 0 0 1 .088.333V13.25c0 .117-.03.232-.089.334a.667.667 0 0 1-.245.244l-3.785 2.18a.667.667 0 0 0-.245.245.666.666 0 0 0-.089.334.667.667 0 0 0 .09.334.666.666 0 0 0 .247.244l2.088 1.189a.67.67 0 0 0 .33.087.667.667 0 0 0 .332-.089l4.457-2.56Zm.438-9.828a.666.666 0 0 0 .09.335.666.666 0 0 0 .248.244.667.667 0 0 0 .67-.008l2.001-1.2a.666.666 0 0 0 .237-.243.667.667 0 0 0 .087-.329V2.32a.667.667 0 0 0-.091-.335.667.667 0 0 0-.584-.33.667.667 0 0 0-.334.094l-2 1.2a.666.666 0 0 0-.238.243.668.668 0 0 0-.086.329v2.445Z"/></svg>
+      <span class="font-medium ml-0.5">MUI</span></span
+      >
+
+     <span class="flex items-center px-4 py-2  bg-black text-white rounded-full text-lg"
+      ><svg class="size-5.5 fill-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>shadcn/ui</title><path d="M22.219 11.784 11.784 22.219c-.407.407-.407 1.068 0 1.476.407.407 1.068.407 1.476 0L23.695 13.26c.407-.408.407-1.069 0-1.476-.408-.407-1.069-.407-1.476 0ZM20.132.305.305 20.132c-.407.407-.407 1.068 0 1.476.408.407 1.069.407 1.476 0L21.608 1.781c.407-.407.407-1.068 0-1.476-.408-.407-1.069-.407-1.476 0Z"/></svg>
+    <span class="font-medium ml-0.5">shadcn/ui</span></span>  
+     
+      <span class="flex items-center px-4 py-2  bg-purple-600 text-white rounded-full text-lg"
+      ><svg class="size-5.5 fill-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Vite</title><path d="M13.056 23.238a.57.57 0 0 1-1.02-.355v-5.202c0-.63-.512-1.143-1.144-1.143H5.148a.57.57 0 0 1-.464-.903l3.777-5.29c.54-.753 0-1.804-.93-1.804H.57a.574.574 0 0 1-.543-.746.6.6 0 0 1 .08-.157L5.008.78a.57.57 0 0 1 .467-.24h14.589a.57.57 0 0 1 .466.903l-3.778 5.29c-.54.755 0 1.806.93 1.806h5.745c.238 0 .424.138.513.322a.56.56 0 0 1-.063.603z"/></svg>
+      <span class="font-medium ml-0.5">Vite</span></span
+      >
+    </div>
+      <div class="text-lg mt-5 mb-3">Cloud/Host Platforms</div>
+      <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"
+        >nertify</span
+      >
+    </section>
+
+    <!-- 项目 -->
+    <section>
+      <h2 class="text-2xl font-bold mb-4">Projects</h2>
+      <div class="space-y-6">
+        <div class="border-l-4 border-blue-500 pl-4 py-1">
+          <h3 class="font-semibold">隐式神经表示图像重建</h3>
+          <p class="text-gray-600 text-sm">
+            使用 PyTorch 实现 INR 模型，探索局部细节表达能力。
+          </p>
+        </div>
+        <div class="border-l-4 border-green-500 pl-4 py-1">
+          <h3 class="font-semibold">Words Web App</h3>
+          <p class="text-gray-600 text-sm">
+            基于 React + IndexedDB 的离线单词卡片系统。
+          </p>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
